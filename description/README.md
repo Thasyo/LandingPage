@@ -10,13 +10,7 @@ CONTEÚDO MÍNIMO DA LANDING PAGE:
 - Uma seção de produtos e/ou serviços oferecidos.
 - Uma área de sobre/contato com um formulário simples (nome, email e mensagem).
 - Ação de botão de chamada para ação (por exemplo, exibir uma mensagem de agradecimento ou redirecionar para outra página, utilizando JS, claro).
-- Escolha uma paleta de cores harmoniosa e fontes apropriadas. (
-
-        Bege: #F5F5DC (Background e Containers)
-        Verde Menta: #98FF98 (Background e Containers)
-        Marrom Escuro: #8B4513 (Fonte)
-
-)
+- Escolha uma paleta de cores harmoniosa e fontes apropriadas. ( https://paletadecores.com/paleta/eff3cd/b2d5ba/61ada0/248f8d/605063/ )
 
 SUGESTÕES:
 
