@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Projeto</title>
 </head>
 <body>
@@ -11,29 +12,29 @@
 
         <nav>
             
-            <div>
-                <img src="#" alt="logo da empresa">
+            <div class="container-img">
+                <img src="./assets/images/logo.png" alt="logo da empresa">
             </div>
 
             <ul class="container-itens">
 
-                <li class="itens"><a href="#">Página Inicial</a></li>
-                <li class="itens"><a href="">Sobre</a></li>
-                <li class="itens"><a href="">Contato</a></li>
-                <li class="itens"><a href="">Trabalhe conosco</a></li>
+                <li class="itens"><a href="#home">Página Inicial</a></li>
+                <li class="itens"><a href="#about">Sobre</a></li>
+                <li class="itens"><a href="#contact">Contato</a></li>
+                <div class="theme-switch">
+
+                    <input type="checkbox" class="checkbox" id="checkbox">
+    
+                    <label for="checkbox" class="label">
+                        <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+                        <ion-icon name="moon-outline" class="moon"></ion-icon>
+                        <div class="switcher"></div>
+                    </label>
+                </div>
             
             </ul>
 
-            <div class="theme-change">
-
-                <input type="checkbox" class="theme-change" id="checkbox">
-
-                <label for="checkbox" class="label">
-                    <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
-                    <ion-icon name="moon-outline" class="moon"></ion-icon>
-                </label>
-
-            </div>
+            <a href="#" target="_blank" class="header-btn">Visitar Site</a>
 
         </nav>
 
@@ -41,7 +42,7 @@
 
     <main>
 
-        <div class="parallax parallax-01">
+        <div class="parallax parallax-01" id="home">
 
             <div class="opacity-parallax">
 
@@ -54,7 +55,7 @@
 
         </div>
 
-        <div class="content-about">
+        <div class="content-about" id="about">
 
             <h1>Sobre Nós</h1>
 
@@ -88,7 +89,7 @@
 
         </div>
 
-        <div class="content-contact">
+        <div class="content-contact" id="contact">
 
             <section class="container-content-contact">
 
@@ -134,7 +135,7 @@
                 
             </section>
 
-        </div>
+        </div>  
 
     </main>
 
