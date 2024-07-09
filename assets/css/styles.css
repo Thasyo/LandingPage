@@ -117,3 +117,69 @@ header nav{
 .header-btn:hover{
     box-shadow: 0px 0px 3px #605063;
 }
+
+.menu-toggle{
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.theme-switch-reponsive{
+    display: none;
+}
+
+
+/* responsive header */
+@media (max-width: 480px) {
+
+    .container-itens{
+        display: none;
+        width: 100vw;
+        position: absolute;
+        top: 84px;
+        background-color: #61ada0;
+    }
+
+    .itens, .theme-switch{
+        margin: 15px;
+    }
+
+    .itens{
+        font-size: 14px;
+    }
+
+    .theme-switch{
+        margin: 0 auto;
+        position: absolute;
+        bottom: 70px;
+    }
+
+    .header-btn{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+        margin: 10px 20px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .container-itens.active{
+        display: flex;
+        animation: slide-down .5s forwards;
+    }
+
+}
+
+/*animation header*/
+@keyframes slide-down {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
