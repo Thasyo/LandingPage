@@ -195,11 +195,68 @@ header nav{
     padding: 10px 20px;
     letter-spacing: .5px;
     text-decoration: none;
+    margin: 10px;
 }
 
 .btn:hover{
     box-shadow: 0px 0px 3px #fff;
 
+}
+
+.content{
+    display: flex;
+    background-color: #61ada0;
+}
+
+.content-title-abas{
+    color: #605063;
+    border: 1px solid #605063;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.content-about{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-about p{
+    text-align: justify;
+    width: 80%;
+    font-size: 16px;
+}
+
+.img-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.img-about img{
+    margin: 10px;
+    width: 90%;
+    box-shadow: 0px 0px 5px #fff;
+    border-radius: 10px;
+}
+
+.content-contact{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
